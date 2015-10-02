@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/gontovnik/DGRunkeeperSwitch.git",
                      :tag => '1.1' }
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.platform = :ios, '8.0'
+  s.platform = :ios, '7.0'
   s.source_files = "DGRunkeeperSwitch/**/*.swift"
 
   s.requires_arc = true
   
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
   s.ios.frameworks = ['UIKit', 'Foundation']
 end
